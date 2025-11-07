@@ -1,0 +1,46 @@
+/* Fondo general */
+[data-testid="stAppViewContainer"] > .main {
+    background: linear-gradient(180deg, #000000 0%, #000000 100%);
+    padding-top: 0;
+  }
+  
+  /* Header */
+  .header-card {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85));
+    border-radius: 12px;
+    padding: 18px;
+    display:flex;
+    align-items:center;
+    gap:16px;
+    margin-bottom: 14px;
+    color: #eafff5;
+  }
+  
+  .header-card h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #3aa8e0;
+  }
+  
+  .header-card p {
+    margin: 0;
+    color: #cfeee3;
+  }
+  
+  /* Pestañas */
+  div[role="tablist"] > button {
+    background: #6f9eea !important;
+    color: #050505 !important;
+    border: 1px solid rgba(49, 159, 238, 0.12) !important;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 8px 16px !important;
+    margin-right: 6px !important;
+  }
+  
+  div[role="tablist"] > button[aria-selected="true"] {
+    background: linear-gradient(90deg,#6f9eea,#6f9eea) !important;
+    color: #eafff5 !important;
+    box-shadow: 0 4px 18px rgba(16,185,129,0.12) !important;
+    border-bottom: 3px solid #6f9eea!important;
+  }
+  
